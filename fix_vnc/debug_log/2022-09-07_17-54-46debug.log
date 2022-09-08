@@ -1,0 +1,10 @@
+2022-09-07 17:54:49,137 - __main__ - INFO - b'/usr/bin/tmux\n'
+2022-09-07 17:54:49,138 - __main__ - INFO - 0
+2022-09-07 17:54:49,319 - __main__ - INFO - b'/usr/bin/x11vnc\n'
+2022-09-07 17:54:49,320 - __main__ - INFO - 0
+2022-09-07 17:54:49,588 - __main__ - INFO - b''
+2022-09-07 17:54:49,588 - __main__ - INFO - 0
+2022-09-07 17:54:49,589 - __main__ - INFO - waiting for 20 seconds to check if vnc started and running successfully else will try with display :1
+2022-09-07 17:55:09,805 - __main__ - INFO - b'5885\n'
+2022-09-07 17:55:09,806 - __main__ - INFO - 0
+2022-09-07 17:55:09,807 - __main__ - INFO - vnc running successfully

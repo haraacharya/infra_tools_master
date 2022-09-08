@@ -169,6 +169,7 @@ if __name__ == "__main__":
     sudo_disable_firewall_command = "sudo ufw disable"
 
     tmux_vnc_command = 'tmux new-session -d -s vnc "x11vnc -xkb -skip_keycodes 187,188 --forever --shared --noxrecord --ncache_cr"'
+    # print(tmux_vnc_command)
     tmux_vnc_command_with_display_1 = 'tmux new-session -d -s vnc "x11vnc -xkb -skip_keycodes 187,188 --forever -display :1 --shared --noxrecord --ncache_cr"'
 
     runSudoCommandSuccess(ip_address, username = username, password = password, command = sudo_kill_vnc_command)
